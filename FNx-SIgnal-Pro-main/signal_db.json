@@ -1,0 +1,12 @@
+{
+  "signalFeed": [],
+  "signalStats": {
+    "totalSignals": 0,
+    "wins": 0,
+    "losses": 0,
+    "mtgWins": 0,
+    "accuracy": 0,
+    "consecutiveLosses": 0,
+    "antiLossCircuitStatus": "STANDBY"
+  }
+}

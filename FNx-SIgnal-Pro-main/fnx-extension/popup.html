@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 280px;
+      margin: 0;
+      padding: 16px;
+      background-color: #131316;
+      color: #ffffff;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+    .card {
+      background: #1c1c24;
+      border: 1px solid #282834;
+      border-radius: 10px;
+      padding: 12px;
+      margin-top: 10px;
+    }
+    .title { font-weight: 800; font-size: 14px; color: #ffffff; }
+    .accent { color: #7c6cef; }
+    .status { font-size: 12px; margin-top: 6px; font-weight: 700; }
+    .live { color: #34d399; }
+    .wait { color: #f59e0b; }
+    .info { font-size: 11px; color: #9e9eb0; margin-top: 6px; }
+  </style>
+</head>
+<body>
+  <div class="title">FNx SIGNAL <span class="accent">PRO</span></div>
+  <div class="card">
+    <div id="statusText" class="status wait">● Waiting for Quotex Tab...</div>
+    <div id="assetText" class="info">Asset: --</div>
+    <div id="priceText" class="info">Live Price: --</div>
+  </div>
+  <div class="info" style="margin-top:10px; text-align:center;">
+    Zero-Risk Local Chrome Extension Bridge
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
